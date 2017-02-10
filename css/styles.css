@@ -46,14 +46,14 @@
   color: #536889;
 }
 body.index {
-    background-color: lightgray;
+    background-color: black;
     float: left;
     margin-left: 2%
 }
 body {
   background-image: url(my-page-main.jpeg);
   background-repeat: no-repeat;
-  background-color: gray;
+  background-color: black;
 }
 .panel-info,.panel-body {
   background-color: #eaeaea;
@@ -125,4 +125,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+}
+.panel {
+  border: transparent;
 }
