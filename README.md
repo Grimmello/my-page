@@ -11,6 +11,8 @@ _This project seeks to hightlight the accomplishments and skills that I have dev
 
 ## Setup/Installation Requirements
 
+*_Go to Grimmello.github.io/my-page_
+*__OR__
 * _clone this repo. (to your Desktop)_
 * _click on the html document titled index.html in repository folder_
 * _This should open the .html document in the browser, no other steps needed._
