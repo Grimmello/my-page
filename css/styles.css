@@ -3,13 +3,20 @@
 }
 .header {
   font-style: italic;
-  text-shadow: -2px 2px 2px #f2fff3;
+  text-shadow: -2px 2px 2px black;
+  color: white;
+  padding-top: .5%;
+  padding-left: .25%
 }
 .scrollmenu {
-    background-color: #333;
+    background-color: transparent;
     overflow: auto;
     white-space: nowrap;
-    opacity: 0.65;
+    opacity: 0.9;
+    width: 200%;
+    font-size: 125%;
+    text-shadow: 2px 2px 2px black;
+    padding-left: 0px;
 }
 
 .scrollmenu a {
@@ -28,9 +35,10 @@
 }
 .header .header-contact {
   text-align: center;
-  margin-top: 5%;
-  margin-bottom: 50px;
+  margin-top: 7%;
+  margin-bottom: 75px;
   text-decoration: underline;
+  font-size: 300%
 }
 .email {
   font-size: 26px;
@@ -38,6 +46,57 @@
   margin-top: 75px;
   color: #536889;
 }
-body {
+body.index {
     background-color: lightgray;
+    float: left;
+}
+body{
+  background-image: url(my-page-main.jpeg);
+}
+.panel-info,.panel-body {
+  background-color: #eaeaea;
+  float: left;
+  border: none;
+  margin-top: 0px;
+}
+.panel-info .panel-heading {
+  background-color: gray;
+  color: white;
+  border: transparent;
+  margin-bottom: 10px;
+}
+body.index:not(.sidemenu) {
+  margin-left: 2%;
+}
+.panel-warning {
+  width: 24%;
+  margin-left: 38%;
+  border-radius: 12px;
+  word-break: break-all;
+}
+.panel-info {
+  width: 50%;
+  margin-right: 50%;
+}
+.scrollmenu2 {
+    background-color: transparent;
+    overflow: auto;
+    white-space: nowrap;
+    opacity: 0.9;
+    width: 200%;
+    font-size: 125%;
+    text-shadow: 2px 2px 2px black;
+    padding-left: 2%;
+}
+
+.scrollmenu2 a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.scrollmenu2 a:hover {
+    background-color: #777;
 }
