@@ -72,7 +72,7 @@ body {
 }
 .panel-warning {
   width: 30%;
-  margin-left: 30%;
+  margin-left: 35%;
   border-radius: 12px;
   word-break: break-all;
 }
@@ -131,4 +131,11 @@ body {
 }
 .panel {
   border: transparent;
+}
+@media screen and (max-width: 1200px){
+  .panel-warning {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
