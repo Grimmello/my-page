@@ -111,6 +111,7 @@ body {
   width: 20%;
   margin-bottom: 0px;
   margin-top: 0px;
+  margin-left: 10px;
 }
 #blossoms {
   margin-left: auto;
@@ -136,7 +137,7 @@ body {
 }
 @media screen and (max-width: 1200px){
   .panel-warning {
-    width: 350px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
   }
